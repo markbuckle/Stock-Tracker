@@ -15,7 +15,7 @@ const StockDetails = () => {
   return (
     <View style={{ padding: 10 }}>
       <Stack.Screen
-        options={{ title: "Stock Details", headerBackTitle: "Stocks" }}
+        options={{ title: "Stock Details", headerBackTitleVisible: false }}
       />
       <StockListItem stock={stock} />
     </View>
