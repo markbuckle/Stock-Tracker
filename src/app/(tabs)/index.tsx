@@ -32,11 +32,11 @@ export default function TabOneScreen() {
   }
 
   const stocks = data.quotes.map((q) => q.value);
-  console.log(JSON.stringify(stocks, null, 2));
 
   return (
     <View style={styles.container}>
       <Stack.Screen options={{ title: "Stocks" }} />
+
       <FlatList
         data={stocks}
         renderItem={({ item }) => <StockListItem stock={item} />}
