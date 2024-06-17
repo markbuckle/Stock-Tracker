@@ -2,7 +2,6 @@ import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client
 
 const client = new ApolloClient({
     uri: 'https://makhshevad.eu-central-a.ibm.stepzen.net/api/precise-porcupine/__graphql',
-    // uri: 'http://localhost:5001/api/precise-porcupine',
     cache: new InMemoryCache(),
     headers: {
         Authorization: 

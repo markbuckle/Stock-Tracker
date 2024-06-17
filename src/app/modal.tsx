@@ -6,7 +6,7 @@ import { Text, View } from "@/src/components/Themed";
 export default function ModalScreen() {
   return (
     <View style={styles.container}>
-      {/* Use a light status bar on iOS to account for the black space above the modal */}
+      {/* Use a light status bar on iOS/android to account for the black space above the modal */}
       <StatusBar style={Platform.OS === "ios" ? "light" : "auto"} />
     </View>
   );
