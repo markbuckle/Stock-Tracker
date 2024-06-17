@@ -1,6 +1,6 @@
 **Stock Price Tracker app for Android or IOS**
 
-This application was built using React Native with the addditions of Expo, GraphQL and Stepzen
+This application was built using React Native, Expo, Stepzen and GraphQL
 
 **Functions:**
 - View a list of stocks
